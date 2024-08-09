@@ -49,7 +49,7 @@ const About = () => {
           advanced, and modern UI applications. I'm also a Backend-Developer who
           have skills with Node.js, Express.js, MongoDB, MYSQL, SUPABASE,
           Prisma, and more. I've finished more than 5 Udemy courses by far. I've
-          developed more than 10 projects by far.ing your ideas to life!
+          developed more than 10 projects by far.I can bring your ideas to life!
         </motion.p>
       </motion.div>
       <div className="mt-20 flex flex-wrap gap-10">
