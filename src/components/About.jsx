@@ -42,11 +42,14 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          I'm a Frontend-developer who have been working on web development for
+          more than 4 years . I have a lot of skills in frontend development
+          like working with React.js, Next.js, React-Query, Three.js, Radix-UI,
+          Tailwind, Sass, CSS, Html etc. I can develop a high operational,
+          advanced, and modern UI applications. I'm also a Backend-Developer who
+          have skills with Node.js, Express.js, MongoDB, MYSQL, SUPABASE,
+          Prisma, and more. I've finished more than 5 Udemy courses by far. I've
+          developed more than 10 projects by far.ing your ideas to life!
         </motion.p>
       </motion.div>
       <div className="mt-20 flex flex-wrap gap-10">
