@@ -22,6 +22,8 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 import webdev from './tech/webdev.png';
+import reactnative from './tech/reactnative.webp';
+import expo from './tech/expo.webp';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -34,6 +36,9 @@ import tripguide from './tripguide.png';
 import wild from './wild.png';
 import pizza from './pizza.png';
 import worldwise from './worldwise.png';
+import blog from './blog.png';
+import medilink from './medilink.png';
+import deliveryx from './delivery.jpg';
 
 export {
   logo,
@@ -69,4 +74,9 @@ export {
   wild,
   pizza,
   worldwise,
+  reactnative,
+  expo,
+  blog,
+  medilink,
+  deliveryx,
 };

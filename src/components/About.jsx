@@ -40,19 +40,22 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
+          className="mt-4 text-secondary text-[17px]  max-w-7xl leading-[30px] "
         >
-          I'm a Frontend-developer who have been working on web development for
-          more than 4 years . I have a lot of skills in frontend development
-          like working with React.js, Next.js, React-Query, Three.js, Radix-UI,
-          Tailwind, Sass, CSS, Html etc. I can develop a high operational,
-          advanced, and modern UI applications. I'm also a Backend-Developer who
-          have skills with Node.js, Express.js, MongoDB, MYSQL, SUPABASE,
-          Prisma, and more. I've finished more than 5 Udemy courses by far. I've
-          developed more than 10 projects by far.I can bring your ideas to life!
+          "I am a passionate Full-Stack Web and Mobile Developer with over 4
+          years of experience building modern, responsive, and scalable
+          applications. I bring strong problem-solving skills to web and mobile
+          development. I specialize in React, React Native, JavaScript, HTML,
+          CSS (including Tailwind and Sass), and backend technologies like
+          Node.js, Express, and MongoDB. I also have experience with Next.js for
+          server-side rendering and REST APIs. I have built various projects,
+          including web apps, e-commerce platforms, and mobile applications. I
+          am dedicated to delivering high-quality work, meeting deadlines, and
+          continuously improving my skills. If you're looking for a reliable
+          developer who understands your business needs, let's work together!"
         </motion.p>
       </motion.div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
