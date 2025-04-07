@@ -28,6 +28,10 @@ import {
   wild,
   pizza,
   worldwise,
+  reactnative,
+  expo,
+  medilink,
+  deliveryx,
 } from '../assets';
 
 export const navLinks = [
@@ -47,10 +51,6 @@ export const navLinks = [
 
 const services = [
   {
-    title: 'Web Developer',
-    icon: web,
-  },
-  {
     title: 'Frontend Developer',
     icon: frontend,
   },
@@ -59,9 +59,10 @@ const services = [
     title: 'Backend Developer',
     icon: backend,
   },
+
   {
-    title: 'Content Creator',
-    icon: creator,
+    title: 'Mobile App Developer',
+    icon: mobile,
   },
 ];
 
@@ -79,10 +80,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: 'TypeScript',
-    icon: typescript,
-  },
-  {
     name: 'React JS',
     icon: reactjs,
   },
@@ -95,16 +92,17 @@ const technologies = [
     icon: tailwind,
   },
   {
+    name: 'TypeScript',
+    icon: typescript,
+  },
+
+  {
     name: 'Node JS',
     icon: nodejs,
   },
   {
     name: 'MongoDB',
     icon: mongodb,
-  },
-  {
-    name: 'Three JS',
-    icon: threejs,
   },
   {
     name: 'git',
@@ -114,51 +112,55 @@ const technologies = [
 
 const experiences = [
   {
-    title: 'Java Script Developer',
+    title: 'JavaScript Developer (Freelance)',
     company_name: 'Freelance',
     icon: javascript,
     iconBg: '#383E56',
-    date: 'March 2020 - April 2021',
+    date: 'March 2020 – April 2021',
     points: [
-      'Collaborated with teams to develop  application utilizing JavaScript  to enhance business operation.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
+      'Started building dynamic websites using modern JavaScript (ES6+), focusing on responsive layouts and browser compatibility.',
+      'Worked with real clients to create interactive UIs and improve user experiences on small business websites.',
+      'Practiced clean, maintainable code and modular architecture from the start, laying the foundation for scalable apps.',
     ],
   },
   {
-    title: 'React.js Developer',
+    title: 'React.js Frontend Developer (Freelance)',
     company_name: 'Freelance',
     icon: reactjs,
     iconBg: '#E6DEDD',
-    date: 'Jan 2021 - Feb 2022',
+    date: 'May 2021 – Jan 2022',
     points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Managed front-end development implementing responsive design to improve website user interface',
-      'Championed revision of coding standards resulting in increase in development speed.',
+      'Built SPA (Single Page Applications) using React.js, integrating Tailwind CSS and Styled-components for modern UI/UX.',
+      'Managed global state using Redux and React Context to handle user authentication and app data.',
+      'Created reusable components, routing systems, and responsive layouts to deliver seamless web experiences.',
+      'Implemented dark mode, charts, and dashboard components in a hotel-reservation platform (Wild Oasis project).',
     ],
   },
   {
-    title: 'Node.js Developer',
+    title: 'Backend Developer (Node.js / MongoDB)',
     company_name: 'Freelance',
     icon: nodejs,
     iconBg: '#383E56',
-    date: 'Jan 2022 - Jan 2023',
+    date: 'Feb 2022 – Jan 2023',
     points: [
-      'Designined API contracts',
-      'Designined solutions for microservices architecture in general and for particular microservices',
-      'Developined Confluence documentation for the project',
+      'Designed and developed RESTful APIs using Node.js and Express.js to support web and mobile apps.',
+      'Built secure authentication systems using JWT, role-based access, and cookie/session strategies.',
+      'Worked with MongoDB and Supabase to structure databases and handle complex queries with proper indexing.',
+      'Ensured clear API documentation and smooth collaboration between backend and frontend sides.',
     ],
   },
   {
-    title: 'Full stack Developer',
+    title: 'React Native Mobile Developer (Freelance)',
     company_name: 'Freelance',
-    icon: webdev,
-    iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Present',
+    icon: reactnative,
+    iconBg: '#383E56',
+    date: 'Feb 2023 – Present',
     points: [
-      `Worked with Core Java to develop automated solutions to include web interfaces using HTML, CSS, JavaScript and Web services`,
-      'Developed indexed database architecture using MongoDB different applications',
+      'Created and deployed cross-platform mobile apps using React Native, React Navigation, and Expo.',
+      'Integrated Firebase and Supabase for authentication, file storage, and real-time data sync.',
+      'Built animated components, parallax scroll views, and segment buttons to enhance mobile interactivity.',
+      'Optimized app performance and UX by using lazy loading, offline caching, and efficient state management.',
+      'Focused on pixel-perfect UI, accessibility, and smooth onboarding flows.',
     ],
   },
 ];
@@ -166,27 +168,29 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'test',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      'Working with Mohamed was a game-changer for our business. He delivered a clean, responsive website ahead of schedule, and our user engagement has noticeably improved.',
+    name: 'Nadia El-Sayed',
+    designation: 'Marketing Manager',
+    company: 'CairoTech Solutions',
+    image:
+      'https://media.istockphoto.com/id/1170356638/photo/portrait-of-smiling-muslim-woman-outdoors.jpg?s=612x612&w=0&k=20&c=xB70SwPYynDhHJn6ciOZycVFj3ci7P_VPNhfEQ8IPtk=',
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Mohamed does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'test',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
+      "Mohamed quickly understood our goals and built a custom dashboard that streamlined our internal workflow. Communication was smooth, and he's clearly passionate about his work.",
+    name: 'Omar Abdelrahman',
+    designation: 'Product Manager',
+    company: 'NextPhase Analytics',
+    image: 'https://randomuser.me/api/portraits/men/47.jpg',
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: 'test',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+      "Our old website was outdated and clunky. Mohamed gave it a modern facelift and improved the load time significantly. We've seen a 35% increase in user retention since the launch.",
+    name: 'Yasser Radwan',
+    designation: 'Operations Lead',
+    company: 'Greenline Logistics',
+    image:
+      'https://t3.ftcdn.net/jpg/01/10/79/02/360_F_110790299_wdE1KqnWAlkjlfD8nujgEWuTtLzAnzxa.jpg',
   },
 ];
 
@@ -194,7 +198,7 @@ const projects = [
   {
     name: 'Wild Oasis',
     description:
-      'Web-based platform for hotel-reservation that contains a lot of features and modern UI with advanced statistics representaion using charts, modern database implementaion using supabase, with a high RLS, and cool features like Dark Mode, and so on  ',
+      'Web-based platform for hotel management with a modern UI and rich features. It includes real-time CRUD operations using Supabase, advanced statistics representation through interactive charts.',
     tags: [
       {
         name: 'vite',
@@ -213,12 +217,12 @@ const projects = [
     source_code_link: 'https://github.com/muhamadatif/The-wild-oasis',
   },
   {
-    name: 'Fast-Pizza-CO.',
+    name: 'MediLink',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'A modern healthcare application that streamlines medical appointment booking, patient-doctor interactions, and access to health records. Built to enhance the digital health experience for users and providers.',
     tags: [
       {
-        name: 'react',
+        name: 'next',
         color: 'blue-text-gradient',
       },
       {
@@ -226,33 +230,33 @@ const projects = [
         color: 'green-text-gradient',
       },
       {
-        name: 'redux',
+        name: 'appwrite',
         color: 'pink-text-gradient',
       },
     ],
-    image: pizza,
-    source_code_link: 'https://github.com/muhamadatif/fast-pizza-co',
+    image: medilink,
+    source_code_link: 'https://github.com/muhamadatif/MediLink',
   },
   {
-    name: 'World Wise',
+    name: 'DeliveryX',
     description:
-      'A world map that tracks your footsteps into every city you can think of. Never forget your wonderful experiences, and show your friends how you have wandered the world. ',
+      'A delivery tracking platform that offers real-time updates, optimized delivery routes, and seamless order management. Designed to enhance logistics efficiency for both customers and delivery agents.',
     tags: [
       {
-        name: 'vite',
+        name: 'react native',
         color: 'blue-text-gradient',
       },
       {
-        name: 'sass',
+        name: 'expo',
         color: 'green-text-gradient',
       },
       {
-        name: 'leaflet',
+        name: 'expo-location',
         color: 'pink-text-gradient',
       },
     ],
-    image: worldwise,
-    source_code_link: 'https://github.com/muhamadatif/worldwise',
+    image: deliveryx, // Make sure to add a related image asset
+    source_code_link: 'https://github.com/muhamadatif/DeliveryX',
   },
 ];
 

@@ -40,16 +40,22 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] "
+          className="mt-4 text-secondary text-[17px]  max-w-7xl leading-[30px] "
         >
-          I'm a skilled software developer with experience in TypeScript and
-          JavaScript, and expertise in frameworks like React, Node.js, and
-          Three.js. I'm a quick learner and collaborate closely with clients to
-          create efficient, scalable, and user-friendly solutions that solve
-          real-world problems. Let's work together to bring your ideas to life!
+          "I am a passionate Full-Stack Web and Mobile Developer with over 4
+          years of experience building modern, responsive, and scalable
+          applications. I bring strong problem-solving skills to web and mobile
+          development. I specialize in React, React Native, JavaScript, HTML,
+          CSS (including Tailwind and Sass), and backend technologies like
+          Node.js, Express, and MongoDB. I also have experience with Next.js for
+          server-side rendering and REST APIs. I have built various projects,
+          including web apps, e-commerce platforms, and mobile applications. I
+          am dedicated to delivering high-quality work, meeting deadlines, and
+          continuously improving my skills. If you're looking for a reliable
+          developer who understands your business needs, let's work together!"
         </motion.p>
       </motion.div>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
